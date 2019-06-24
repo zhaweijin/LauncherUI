@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?android:attr/dividerVertical"
+    android:gravity="center"
+    android:minHeight="220dp"
+    android:orientation="horizontal"
+    android:paddingBottom="20dip" >
+
+    <RelativeLayout
+        android:layout_width="400dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/cleanMemory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cleanMemory"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:drawableTop="@drawable/clean_app_cache"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/str_clearcache"
+            android:textColor="@drawable/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center" >
+
+        <com.mirageTeam.widget.HorizontalListView
+            android:id="@+id/memoryApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="150dip"
+    android:layout_height="250dip"
+    android:background="@drawable/green"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/widget29"
+        android:layout_width="150dip"
+        android:layout_height="200dip" >
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="32sp" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true" 
+            android:text="@string/mb"
+            android:textSize="18sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:textSize="22sp" >
+    </TextView>
+
+</LinearLayout>

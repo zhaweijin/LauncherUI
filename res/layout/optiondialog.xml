@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" > android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:orientation="horizontal" > -->
+
+
+<!-- <ImageView -->
+<!-- android:id="@+id/icon_imageview" -->
+<!-- android:layout_width="wrap_content" -->
+<!-- android:layout_height="wrap_content" -->
+<!-- android:padding="0dip" -->
+<!-- android:scaleType="matrix" /> -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/transparent" >
+
+    <RadioButton
+        android:id="@+id/operation_rename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/option_background"
+        android:button="@null"
+        android:drawableLeft="@drawable/option_default"
+        android:singleLine="true"
+        android:text="@string/option_rename"
+        android:textColor="@android:color/white" />
+
+    <RadioGroup
+        android:id="@+id/option_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operation_rename" >
+
+        <RadioButton
+            android:id="@+id/operation_openapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/option_background"
+            android:button="@null"
+            android:drawableLeft="@drawable/option_checked"
+            android:singleLine="true"
+            android:text="@string/option_openapp"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/operation_catelog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/option_background"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/option_checked"
+            android:singleLine="true"
+            android:text="@string/option_catelog"
+            android:textColor="@android:color/white" />
+    </RadioGroup>
+
+</RelativeLayout> <!-- </LinearLayout> -->

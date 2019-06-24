@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/layout_wallpaper"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:background="@drawable/menu_pressed"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/btn_wallpaper"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/wallpaper_menu"
+            android:gravity="center"
+            android:text="@string/wallpaper_setting"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_weather"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/layout_wallpaper"
+        android:background="@drawable/menu_pressed"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/btn_weather"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/weather_menu"
+            android:gravity="center"
+            android:text="@string/weather_setting"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_menu_network"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/layout_weather"
+        android:background="@drawable/menu_pressed"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/btn_network"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/network_menu"
+            android:gravity="center"
+            android:text="@string/network_setting"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_menu_settings"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/layout_menu_network"
+        android:background="@drawable/menu_pressed"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/btn_menu_settings"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/settings_menu"
+            android:gravity="center"
+            android:text="@string/more_setting"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

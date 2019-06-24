@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget36"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/widget28"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/wallpaper_manager"
+            android:layout_width="fill_parent"
+            android:background="@drawable/setting_row_selector"
+            android:focusable="true"
+            android:layout_height="120dip" >
+
+            <TextView
+                android:id="@+id/wallpaper_manager_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:text="@string/wallpaper_manager"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" >
+            </TextView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_div"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_horizontal_div"
+            android:orientation="vertical" >
+        </LinearLayout>
+        <!--
+        <RelativeLayout
+            android:id="@+id/output_mode"
+            android:layout_width="fill_parent"
+            android:background="@drawable/setting_row_selector"
+            android:focusable="true"
+            android:layout_height="120dip" >
+
+            <LinearLayout
+                android:id="@+id/widget32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="30dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/output_mode_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/output_mode"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/output_mode_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/output_mode_message"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp" >
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+-->
+        <LinearLayout
+            android:id="@+id/horizontal_div"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_horizontal_div"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/font_size"
+            android:layout_width="fill_parent"
+            android:background="@drawable/setting_row_selector"
+            android:focusable="true"
+            android:layout_height="120dip" >
+
+            <LinearLayout
+                android:id="@+id/widget32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="30dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/font_size_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/font_size"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/font_size_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/font_size_message"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp" >
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_div"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_horizontal_div"
+            android:orientation="vertical" >
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

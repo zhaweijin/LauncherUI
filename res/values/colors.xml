@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="solid_red">#ffff0000</color>
+    <color name="grid_blue">#0061bd</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="title_bar_shadow">#00000000</color>
+    <color name="shadow">#00000000</color>
+    <color name="hint_foreground_light">#ff808080</color>
+    <color name="silver_grey">#ff868686</color>
+    <color name="perms_dangerous_grp_color">#ffdd6826</color>
+    <color name="perms_dangerous_perm_color">#ffdd6826</color>
+    <color name="title_background">#ff828282</color>
+    <color name="view_background">#ff1c1c1c</color>
+    <color name="loading_line">#ff003c80</color>
+    <color name="search_tag">#ff2f6aba</color>
+    <color name="comment_reply">#ff2f8a23</color>
+    <color name="list_btn">#FFCC66</color>
+    <color name="listview_cacheColorHint">#ff000000</color>
+    <color name="login_upcolor">#FF2C75D1</color>
+    <color name="Black">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="appbackground">#252525</color>
+    
+    
+   <drawable name="green">#0F0</drawable> 
+   <drawable name="main_list_background_color">#CCCCCC</drawable> 
+   <drawable name="white">#FFFFFF</drawable>  
+   
+   <drawable name="black">#000000</drawable> 
+   <drawable name="one">#CCCCCC</drawable> 
+   <drawable name="two">#F5F4EF</drawable> 
+   <drawable name="main_mid">#999999</drawable> 
+   <drawable name="pink">#E95477</drawable> 
+   <drawable name="red">#f00</drawable> 
+   <drawable name="blue">#00f</drawable> 
+   <drawable name="aa">#222</drawable> 
+   <drawable name="fenlei_background">#525252</drawable> 
+   <drawable name="logincolor">#909090</drawable> 
+   <drawable name="qianhui">#4D4D4D</drawable> 
+   <drawable name="test">#FF0000</drawable> 
+   <drawable name="softinfo_background">#1c88d0</drawable>
+   <drawable name="background">#F5F4EF</drawable> 
+   <drawable name="coment_top">#EFEFEF</drawable> 
+   <drawable name="list_item_pressed">#FFF3A9</drawable> 
+   <drawable name="gallery_background">#DCDCDC</drawable>
+   <drawable name="row_color">#FAFCFE</drawable>
+   <drawable name="row_color2">#FAFCFE</drawable>
+   <drawable name="download">#66E32E</drawable>
+   
+   
+   
+    <color name="memory_used">#F00</color>
+    <color name="memory_avail">#333333</color>
+    <color name="memory_apps_usage">#3f8c07</color>
+    <color name="memory_downloads">#c88600</color>
+    <color name="memory_dcim">#0085c8</color>
+    <color name="memory_music">#6c00c8</color>
+    <color name="memory_cache">#b94040</color>
+    <color name="memory_misc">#866a40</color>
+    <color name="memory_user_light">#479392</color>
+    <color name="memory_user_dark">#316665</color>
+
+    <color name="crypt_keeper_clock_background">#ff9a9a9a</color>
+    <color name="crypt_keeper_clock_foreground">#ff666666</color>
+    <color name="crypt_keeper_clock_am_pm">#ff9a9a9a</color>
+
+    <color name="divider_color">#20ffffff</color>
+    <color name="title_color">@android:color/holo_blue_light</color>
+    <color name="setup_divider_color">#333333</color>
+    
+    <color name="market_grid_textcorlor">#c7c7c7</color>
+    <color name="all_background">#12151a</color>
+    <color name="dialog_blue_title">#0094ff</color>
+    
+     
+</resources>

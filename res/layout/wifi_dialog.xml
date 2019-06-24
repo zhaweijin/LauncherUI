@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/widget36"
+            android:layout_width="250dip"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/widget37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="15dip"
+                android:text="@string/wifi_siginal"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/widget38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="@string/wifi_security"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/password_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:textColor="@android:color/white"
+                android:text="@string/wifi_password"
+                android:textSize="20sp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget36"
+            android:layout_width="400dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/wifi_siginal_value"
+                android:layout_width="200dip"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/wifi_security_value"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="400dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:password="true"
+                android:singleLine="true" 
+                android:textColor="@android:color/white"
+                android:textSize="20sp" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eap"
+        style="@style/wifi_section"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/l_method"
+            style="@style/wifi_item"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/wifi_item_label"
+                android:text="@string/wifi_eap_method" />
+
+            <Spinner
+                android:id="@+id/method"
+                style="@style/wifi_item_content"
+                android:entries="@array/wifi_eap_method"
+                android:prompt="@string/wifi_eap_method" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_phase2"
+            style="@style/wifi_item"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/wifi_item_label"
+                android:text="@string/please_select_phase2" />
+
+            <Spinner
+                android:id="@+id/phase2"
+                style="@style/wifi_item_content"
+                android:entries="@array/wifi_phase2_entries"
+                android:prompt="@string/please_select_phase2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_ca_cert"
+            style="@style/wifi_item"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/wifi_item_label"
+                android:text="@string/wifi_eap_ca_cert" />
+
+            <Spinner
+                android:id="@+id/ca_cert"
+                style="@style/wifi_item_content"
+                android:prompt="@string/wifi_eap_ca_cert" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_user_cert"
+            style="@style/wifi_item"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/wifi_item_label"
+                android:text="@string/wifi_eap_user_cert" />
+
+            <Spinner
+                android:id="@+id/user_cert"
+                style="@style/wifi_item_content"
+                android:prompt="@string/wifi_eap_user_cert" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_identity"
+            style="@style/wifi_item"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/wifi_item_label"
+                android:text="@string/wifi_eap_identity" />
+
+            <EditText
+                android:id="@+id/identity"
+                style="@style/wifi_item_content"
+                android:inputType="textNoSuggestions"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_anonymous"
+            style="@style/wifi_item"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/wifi_item_label"
+                android:text="@string/wifi_eap_anonymous" />
+
+            <EditText
+                android:id="@+id/anonymous"
+                style="@style/wifi_item_content"
+                android:inputType="textNoSuggestions"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_width">280dip</dimen>
+    <dimen name="common_popWindow_height"> 140dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    
+    <dimen name="volume_seekbar_side_margin">8dip</dimen>
+
+</resources>

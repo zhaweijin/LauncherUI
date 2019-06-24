@@ -1,0 +1,402 @@
+<resources>
+
+    <string name="app_name"> Kangoo Desktop </string>
+    <string name="hello_world"> Hello world! </string>
+    <string name="menu_settings"> Settings </string>
+    <string name="title_activity_main"> LauncherUI </string>
+    <string name="max_over_flow"> allowed only up to 9 shortcuts </string>
+    <string name="is_exist"> same application can not exist </string>
+    <string name="default_city"> Shenzhen </string>
+    <string name="empty_string"> </string>
+    <string name="douyun"> cloudy </string>
+    <string name="dayu"> rain </string>
+    <string name="douyunzhuanqin"> cloudy to clear </string>
+    <string name="qinzhuandouyun"> Partly cloudy </string>
+    <string name="xiaoyu"> drizzle </string>
+    <string name="yujiaxue"> sleet </string>
+    <string name="daxue"> snow </string>
+    <string name="weifen"> breeze </string>
+    <string name="xiaoxue"> snow </string>
+    <string name="yin"> overcast </string>
+    <string name="qing"> clear </string>
+    <string name="zhenyu"> showers </string>
+    <string name="leizhenyu"> thunderstorms </string>
+    <string name="douyunzhuangleizhenyu"> Cloudy with thunderstorms </string>
+    <string name="dayuzhuanleizhenyu"> heavy thunderstorms - </string>
+    <string name="duoyunzhuanzhengyun"> Cloudy with showers </string>
+    <string name="duoyunzhuangxiaoyu"> rain changing to rain </string>
+    <string name="zhongyuzhuangxiaoyu"> moderate rain drizzle </string>
+    <string name="xiaoyuzhuanduoyun"> cloudy light rain - </string>
+    <string name="zhongyu"> moderate rain - </string>
+    <string name="duoyunzhuanyin"> cloudy to overcast </string>
+    <string name="zhengyuzhuangduoyun"> showers cloudy </string>
+    <string name="yinzhuanqin"> Warrington </string>
+    <string name="dadaobaoyu"> heavy rain </string>
+    <string name="zhengyuzhuanzhongdaodayu"> moderate to heavy rain showers </string>
+    <string name="weihoqu"> not get </string>
+
+  
+    <!-- Market -->
+    <string name="button"> Button </string>
+    <string name="wifi_set"> Wifi set </string>
+    <string name="connect"> connection </string>
+    <string name="forget"> ignore </string>
+    <string name="connecting"> connection ... </string>
+    <string name="simulate_key"> Simulate </string>
+    <string name="wifi_name"> WIFI </string>
+    <string name="wifi_siginal_name1"> weak </string>
+    <string name="wifi_siginal_name2"> General </string>
+    <string name="wifi_siginal_name3"> Strong </string>
+    <string name="wifi_fail_to_scan"> Can not scan for networks </string>
+    <string name="wifi_ssid"> Network SSID </string>
+    <!-- Label for the security of the connection -->
+    <string name="wifi_security"> Security </string>
+    <!-- Label for the signal strength of the connection -->
+    <string name="wifi_signal"> Signal strength </string>
+    <!-- Label for the status of the connection -->
+    <string name="wifi_status"> Status </string>
+    <!-- Label for the link speed of the connection -->
+    <string name="wifi_speed"> Link speed </string>
+    <!-- Label for the IP address of the connection -->
+    <string name="wifi_ip_address"> IP address </string>
+    <!-- Hint text for the IP address -->
+    <string name="wifi_ip_address_hint"> 192.168.1.128 </string>
+    <string name="wifi_eap_method"> EAP method </string>
+    <!-- Label for the phase2 -->
+    <string name="please_select_phase2"> Phase 2 authentication </string>
+    <!-- Label for the EAP CA certificate of the network -->
+    <string name="wifi_eap_ca_cert"> CA certificate </string>
+    <!-- Label for the EAP user certificate of the network -->
+    <string name="wifi_eap_user_cert"> User certificate </string>
+    <!-- Label for the EAP identity of the network -->
+    <string name="wifi_eap_identity"> Identity </string>
+    <!-- Label for the EAP anonymous identity of the network -->
+    <string name="wifi_eap_anonymous"> Anonymous identity </string>
+    <string name="wifi_password"> password </string>
+    <!-- Label for the check box to show password -->
+    <string name="wifi_show_password"> Show password </string>
+    <!-- Label for the spinner to show ip settings [CHAR LIMIT = 25] -->
+    <string name="wifi_ip_settings"> IP settings </string>
+
+    <!-- Do not translate. Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep"> WEP </string>
+    <!-- Do not translate. Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa"> WPA </string>
+    <!-- Do not translate. Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2"> WPA2 </string>
+    <!-- Do not translate. Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2"> WPA/WPA2 </string>
+    <!-- Do not translate. Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic"> @string/wifi_security_short_wpa_wpa2 </string>
+    <!-- Do not translate. Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap"> 802.1x </string>
+
+    <!-- Dialog for Access Points -->
+    <skip />
+    <!-- Label to show / hide advanced options -->
+    <string name="wifi_show_advanced"> Show advanced options </string>
+    <!-- Title for the WPS setup dialog [CHAR LIMIT = 50] -->
+    <string name="wifi_wps_setup_title"> Wi-Fi Protected Setup </string>
+    <!-- Message in WPS dialog at start up [CHAR LIMIT = 150] -->
+    <string name="wifi_wps_setup_msg"> Starting WPS \ u2026 </string>
+    <!-- Message in WPS dialog for PBC after start up [CHAR LIMIT = 150] -->
+    <string name="wifi_connected"> connected </string>
+    <string name="wifi_connecting"> connection ... </string>
+
+    <!-- HTTP proxy settings title -->
+    <string name="proxy_settings_title"> Proxy settings </string>
+    <!-- HTTP proxy settings. Button to clear the proxy box. -->
+    <string name="proxy_clear_text"> Clear </string>
+    <!-- HTTP proxy settings. The port number label. -->
+    <string name="proxy_port_label"> Proxy port </string>
+    <!-- HTTP proxy settings. The hint text field for port. -->
+    <string name="proxy_port_hint" translatable="false"> 8080 </string>
+    <!-- HTTP proxy settings. The exclusion list label. -->
+    <string name="proxy_exclusionlist_label"> Bypass proxy for </string>
+    <!-- HTTP proxy settings. The hint text for proxy exclusion list. [CHAR LIMIT = 50] -->
+    <string name="proxy_exclusionlist_hint"> example.com, mycomp.test.com, localhost </string>
+    <!-- HTTP proxy settings. The button to restore the defaults. -->
+    <string name="proxy_defaultView_text"> Restore defaults </string>
+    <!-- HTTP proxy settings. The button to save. -->
+    <string name="proxy_action_text"> Done </string>
+    <!-- HTTP proxy settings. The text field for the hostname -->
+    <string name="proxy_hostname_label"> Proxy hostname </string>
+    <!-- HTTP proxy settings. The hint text field for the hostname. [CHAR LIMIT = 50] -->
+    <string name="proxy_hostname_hint"> proxy.example.com </string>
+    <!-- HTTP proxy settings. Title if there is an error -->
+    <string name="proxy_error"> Attention </string>
+    <!-- HTTP proxy settings. Button to get rid of error box -->
+    <string name="proxy_error_dismiss"> OK </string>
+    <!-- HTTP proxy settings. The error if the hostname is not valid -->
+    <string name="proxy_error_invalid_host"> The hostname you typed is not valid. </string>
+    <!-- HTTP proxy settings. The error if the exclusion list is not valid -->
+    <string name="proxy_error_invalid_exclusion_list"> The exclusion list you typed is not properly formatted. Type a comma-separated list of excluded domains. </string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_port"> You need to complete the port field. </string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_host_set_port"> The port field must be empty if the host field is empty. </string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_invalid_port"> The port you typed is not valid. </string>
+    <!-- HTTP proxy settings. Warning message about limited application support [CHAR LIMIT = 100] -->
+    <string name="proxy_warning_limited_support"> The HTTP proxy is used by the browser but may not be used by the other apps. </string>
+    <string name="wifi_dns1"> DNS 1 </string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns1_hint"> 8.8.8.8 </string>
+    <!-- Label for the DNS (second one) -->
+    <string name="wifi_dns2"> DNS 2 </string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns2_hint"> 4.4.4.4 </string>
+    <!-- Label for the gateway of the network -->
+    <string name="wifi_gateway"> Gateway </string>
+    <!-- Hint text for the gateway -->
+    <string name="wifi_gateway_hint"> 192.168.1.1 </string>
+    <!-- Label for the network prefix of the network [CHAR LIMIT = 25] -->
+    <string name="wifi_network_prefix_length"> Network prefix length </string>
+    <!-- Hint text for network prefix length -->
+    <string name="wifi_network_prefix_length_hint"> 24 </string>
+    <string name="wifi_security_none"> None </string>
+
+    <!-- Do not translate. Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep"> WEP </string>
+    <!-- Do not translate. Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa"> WPA PSK </string>
+    <!-- Do not translate. Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2"> WPA2 PSK </string>
+    <!-- Do not translate. Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2"> WPA/WPA2 PSK </string>
+    <string name="wifi_security_psk_generic"> WPA2 PSK </string>
+    <string name="wifi_security_eap"> 802.1x EAP </string>
+    <string name="wifi_connect"> Connect </string>
+    <!-- Failured notification for connect -->
+    <string name="wifi_failed_connect_message"> Failed to connect to network </string>
+    <!-- Button label to delete a Wi-Fi network -->
+    <string name="wifi_forget"> Forget </string>
+    <!-- Failured notification for forget -->
+    <string name="wifi_failed_forget_message"> Failed to forget network </string>
+    <!-- Button label to save a Wi-Fi network configuration -->
+    <string name="wifi_save"> Save </string>
+    <!-- Failured notification for save -->
+    <string name="wifi_failed_save_message"> Failed to save network </string>
+    <!-- Button label to dismiss the dialog -->
+    <string name="wifi_cancel"> Cancel </string>
+    <string name="number_picker_increment_button"> Increase </string>
+    <!-- Description of the button to decrease the NumberPicker value. [CHAR LIMIT = NONE] -->
+    <string name="number_picker_decrement_button"> Decrease </string>
+    <string name="cancel"> Cancel </string>
+    <string name="ok"> confirmation </string>
+
+    <!-- Market -->
+    <string name="timeout"> load timeout </string>
+    <string name="zuixintuijian"> latest recommended </string>
+    <string name="meidiaplay"> video player </string>
+    <string name="game"> Games </string>
+    <string name="news"> News </string>
+
+    <!-- Wifi -->
+    <string name="wifi_siginal"> signal strength </string>
+    <string name="open_wifi"> open WIFI </string>
+    <string name="close_wifi"> Close WIFI </string>
+
+    <!-- Volume -->
+    <string name="volume"> sound </string>
+    <string name="keydown_volume"> key tone </string>
+    <string name="data_audio_output"> digital audio output </string>
+
+    <!-- Update -->
+    <string name="system_update"> detect the new version </string>
+
+    <!-- Setting -->
+    <string name="more_setting"> More Settings </string>
+
+    <!-- Security -->
+    <string name="devices_manager"> Device Manager </string>
+    <string name="unknow_source"> unknown application </string>
+    <string name="able_unknow_source"> allow the installation of applications from unknown sources </string>
+    <string name="check_app"> verification applications </string>
+    <string name="check_app_message"> prohibit the installation of potentially harmful applications before installation or warn </string>
+
+    <!-- Install -->
+    <string name="install"> Installation </string>
+    <string name="update"> upgrade </string>
+    <string name="uninstall"> not installed </string>
+    <string name="open"> Open </string>
+    <string name="installing"> installation </string>
+
+    <!-- Display -->
+    <string name="wallpaper_manager"> Wallpaper Manager </string>
+    <string name="output_mode"> output mode </string>
+    <string name="output_mode_message"> set up your TV output mode </string>
+    <string name="font_size"> font size </string>
+    <string name="font_size_message"> big </string>
+    <string name="wifi_display"> Wireless Display </string>
+    <string name="wifi_display_message"> Open </string>
+    <string name="open_storage_internal"> open memory </string>
+    <string name="open_storage_sdcard"> Open SD </string>
+
+    <!-- Storage -->
+    <string name="internal_storage"> internal storage </string>
+    <string name="external_storage"> external storage </string>
+    <string name="storge_total_size"> total capacity </string>
+    <string name="storge_avalied_size"> available capacity </string>
+    <string name="memory_available"> "free space" </string>
+    <string name="memory_available_read_only"> "free space (read-only)" </string>
+    <string name="memory_size"> "total capacity" </string>
+    <string name="memory_calculating_size"> "Calculating ..." </string>
+    <string name="memory_apps_usage"> "Application" </string>
+    <string name="memory_media_usage"> "Media" </string>
+    <string name="memory_downloads_usage"> "download" </string>
+    <string name="memory_dcim_usage"> "Picture, Video" </string>
+    <string name="memory_music_usage"> "Audio" </string>
+    <string name="memory_media_misc_usage"> "other" </string>
+    <string name="memory_media_cache_usage"> "cached data" </string>
+    <string name="sd_eject" product="nosdcard"> "uninstall a shared storage device" </string>
+    <string name="sd_eject" product="default"> "Unmount SD card" </string>
+    <string name="mb"> MB </string>
+
+    <!-- Devices -->
+    <string name="no_device_admins"> no device </string>
+    <string name="font_set"> font settings </string>
+
+    <!-- Application List -->
+    <string name="app_manegement"> application management </string>
+    <string name="app_recently_opened"> display recently opened applications </string>
+    <string name="show_all_apps"> Show All Programs </string>
+
+    <!-- Main UI -->
+    <string name="movie_string"> Movie </string>
+    <string name="music_string"> Music </string>
+    <string name="browser_string"> Browser </string>
+    <string name="tv_string"> TV </string>
+    <string name="appstore_string"> Market </string>
+    <string name="applist_string"> Local </string>
+    <string name="settings_string"> Settings </string>
+    <string name="volume_media_description"> "music, videos, games and other media" </string>
+    <string name="volume_ring_description"> "ringtone and notifications" </string>
+    <string name="volume_notification_description"> "notice" </string>
+    <string name="volume_alarm_description"> "alarm clock" </string>
+    <string name="volume_ring_mute"> "mute the ringtone and notification" </string>
+    <string name="volume_media_mute"> "make music and other media silence" </string>
+    <string name="volume_notification_mute"> "notice and mute" </string>
+    <string name="volume_alarm_mute"> "Silence the alarm" </string>
+    <!--
+         Sound settings screen, setting option name checkbox. About vibration setting
+         during incoming calls. [CHAR LIMIT = 30]
+    -->
+    <string name="vibrate_when_ringing_title"> Vibrate when ringing </string>
+    
+    <string name="display_position"> significant rates </string>
+    <string name="display_position_summary"> set your TV re-penetrance </string>
+    <string name="cvbs_output_mode"> dual output mode </string>
+    <string name="cvbs_output_mode_summary"> set your dual output mode </string>
+    <string name="position_help"> help: \ n1. Press the Enter key to switch zoom in / out; \ n2. Press the arrow keys to adjust the position of the four sides of the screen; \ n3. press the return key to save and exit; \ n4. adjustment result will take effect after the restart; \ n5. Press the menu key to set the default weight penetrance. </string>
+    <string name="position_help_noreboot"> help: \ n1. Press the Enter key to switch zoom in / out; \ n2. Press the arrow keys to adjust the position of the four sides of the screen; \ n3. press the return key to save; \ n4. Press the Menu key settings The default weight penetrance. </string>
+    <string name="display_position_dialog_title"> "attention" </string>
+    <string name="display_position_set_confirm_dialog"> "weight was rate setting. Sure to save and restart? "</string>
+    <string name="display_position_set_confirm_dialog_noreboot"> "weight was rate setting. Sure to save? "</string>
+    <string name="display_position_dialog_no"> "No" </string>
+    <string name="display_position_set_default_confirm_dialog"> "rate of weight was set to default values. Sure to save and restart? "</string>
+    <string name="display_position_set_default_confirm_dialog_noreboot"> "rate of weight was set to default values. Sure to save? "</string>
+    <string name="tv_output_mode"> "Output mode" </string>
+    <string name="tv_output_mode_summary"> "Set up your TV output mode. "</string>
+    <string name="tv_output_mode_dialog_title"> "note" </string>
+    <string name="tv_output_mode_set_confirm_dialog"> "display mode is set. Are you sure to save? If you do not operate, which will resume in 15 seconds." </string>
+    <string name="tv_default_frequency"> HD format default refresh rate </string>
+    
+    <string name="str_dialog"> dialog </string>
+    <string name="str_appsort"> application categories </string>
+    <string name="str_weatherchoose"> Select Weather </string>
+    <string name="str_applist"> application list </string>
+    <string name="str_allapps"> all applications </string>
+    <string name="str_openappcache"> open the application cache </string>
+    <string name="str_bottom"> bottom </string>
+    <string name="str_market"> Market </string>
+    <string name="str_clearcache"> Empty Cache </string>
+    <string name="str_autolocateaddr"> automatic positioning address is: </string>
+    <string name="str_dongguan"> Dongguan </string>
+    <string name="str_return"> Back </string>
+    <string name="str_manuallyaddr"> manually select Address: </string>
+    <string name="str_wallpaper"> wallpaper </string>
+    <string name="str_clear"> Empty </string>
+    <string name="str_appposition"> application display position </string>
+    <string name="str_province"> Province </string>
+    <string name="str_city"> City </string>
+    <string name="str_area"> District </string>
+    <string name="str_come_from"> from </string>
+    <string name="str_tem"> ℃ </string>
+    <string name="str_dunhao"> turn </string>
+    <string name="str_cloudy"> cloudy </string>
+    <string name="str_sunny"> clear </string>
+    <string name="str_shade"> overcast </string>
+    <string name="str_smoke"> dust </string>
+    <string name="str_h_sand_storm"> strong sandstorm </string>
+    <string name="str_sand_storm"> sandstorm </string>
+    <string name="str_fog"> fog </string>
+    <string name="str_sand_blowing"> Jansa </string>
+    <string name="str_s_snow"> snow </string>
+    <string name="str_m_snow"> Snow </string>
+    <string name="str_l_snow"> snow </string>
+    <string name="str_h_snow"> Blizzard </string>
+    <string name="str_snow_shower"> Snow </string>
+    <string name="str_s_rain"> drizzle </string>
+    <string name="str_m_rain"> moderate rain </string>
+    <string name="str_l_rain"> rain </string>
+    <string name="str_h_rain"> storm </string>
+    <string name="str_hh_rain"> heavy rain </string>
+    <string name="str_hhh_rain"> torrential rain </string>
+    <string name="str_shower"> showers </string>
+    <string name="str_thunder_shower"> thunderstorms </string>
+
+    <!-- Dialog -->
+    <string name="dialog_title"> confirm the change wallpaper </string>
+    <string name="dialog_catalog_title"> sure you want to delete this </string>
+    <string name="display_setting_subtitle"> display settings </string>
+    <string name="update_setting_subtitle"> upgrade </string>
+    <string name="wifi_setting_subtitle"> WIFI settings </string>
+    <string name="security_setting_subtitle"> Security </string>
+    <string name="storage_setting_subtitle"> storage </string>
+    <string name="sound_setting_subtitle"> sound settings </string>
+    <string name="backtoprovince"> Back </string>
+    <string name="connect_network"> connected to the network </string>
+    <string name="forget_network"> forget network </string>
+    <string name="edit_mode"> edit mode </string>
+    <string name="replace"> Select Replace </string>
+    <string name="delete_item"> Delete </string>
+    <string name="more_custom_set"> custom desktop </string>
+    <string name="wallpaper_set_sucess"> wallpaper set successfully </string>
+
+    <!-- Menu Options -->
+    <string name="wallpaper_setting"> desktop background </string>
+    <string name="weather_setting"> Weather settings </string>
+    <string name="network_setting"> network settings </string>
+    <string name="launcher_update_title"> discover new version </string>
+    <string name="go_update"> Upgrade Now </string>
+    <string name="go_cancel"> Maybe next time </string>
+
+    <!-- Long press options -->
+    <string name="option_openapp"> directly open the application </string>
+    <string name="option_catelog"> form open folder </string>
+    <string name="option_rename"> modify the display name </string>
+
+    <!-- Toast Hint -->
+    <string name="hint_catelog_add"> has been added to Category </string>
+    <string name="hint_shortcut_add"> has been added to shortcuts </string>
+    <string name="hint_no_network"> network is not linked, please confirm link </string>
+    <string name="failure"> failed </string>
+    <string name="time_out"> timeout </string>
+    <string name="hint_openapp"> please long press the OK button to select the application </string>
+    <string name="hint_replace_app_head"> already assigned to the </string>
+    <string name="hint_replace_app_tail"> program, continue to replace </string>
+    
+    <string name="checking_update_title"> Checking for updates ... </string>
+    <string name="launcher_is_lastest"> is already the newest version </string>
+    <string name="hide"> hidden </string>
+    <string name="downloading_background">Are downloading in the background</string>
+    
+    <!-- about -->
+    <string name="about">About</string>
+    <string name="software_name">Software Name:</string>
+    <string name="software_version">Software Version:</string>
+    <string name="software_web">Software Web:</string>
+    <string name="software_qq">QQ Group:</string>
+
+</resources>

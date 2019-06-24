@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/system_update"
+        android:layout_width="fill_parent"
+        android:background="@drawable/setting_row_selector"
+        android:focusable="true"
+        android:layout_height="120dip" >
+
+        <TextView
+            android:id="@+id/update1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="@string/system_update"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/horizontal_div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_horizontal_div"
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>

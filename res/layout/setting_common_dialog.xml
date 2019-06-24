@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dialog_blue_title"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+             >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/div"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/dialog_blue_title"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="500dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <!--
+         wifi dialog
+         <include
+                android:id="@+id/include"
+                layout="@layout/wifi_dialog2" >
+            </include>
+        -->
+        <!-- 
+        <include
+            android:id="@+id/include"
+            layout="@layout/setting_dialog_select_listview" >
+        </include>
+         -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget32"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="150dip"
+                android:layout_height="60dip"
+                android:textColor="@drawable/white"
+                android:background="@drawable/dialog_item"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

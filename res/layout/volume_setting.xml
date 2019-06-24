@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget36"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/widget28"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/volume_manager"
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:focusable="true"
+            android:background="@drawable/setting_row_selector" >
+            <TextView
+                android:id="@+id/volume_manager_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:text="@string/volume"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" >
+            </TextView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_div"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_horizontal_div"
+            android:orientation="vertical" >
+        </LinearLayout>
+        <!--
+        <RelativeLayout
+            android:id="@+id/keydown_volume"
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:focusable="true"
+            android:background="@drawable/setting_row_selector" >
+
+            <TextView
+                android:id="@+id/keydown_volume_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/keydown_volume"
+                android:layout_marginLeft="20dip"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/keydown_volume_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dip"
+                android:focusable="false" >
+            </CheckBox>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_div"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_horizontal_div"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/data_volume_output"
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:focusable="true"
+            android:background="@drawable/setting_row_selector" >
+
+            <LinearLayout
+                android:id="@+id/widget32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="30dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/data_volume_output_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/data_audio_output"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/data_volume_output_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp" >
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+-->
+        <LinearLayout
+            android:id="@+id/horizontal_div"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_horizontal_div"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

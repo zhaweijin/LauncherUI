@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imageButton="http://schemas.android.com/apk/res/com.mirageTeam.launcherui"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/main_operation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/notification_area"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <com.mirageTeam.widget.TimeControl
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="65dip"
+            android:textColor="@android:color/white"
+            android:textSize="35sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_margin="0dp"
+
+            android:gravity="fill"
+            android:orientation="horizontal" >
+
+            <com.mirageTeam.widget.ScaleImageButton
+                android:id="@+id/btn_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="80dp"
+                android:adjustViewBounds="true"
+                android:background="@color/shadow"
+                android:contentDescription="@string/empty_string"
+                android:nextFocusDown="@+id/btn_televison"
+                android:nextFocusRight="@+id/btn_browser"
+                android:nextFocusUp="@+id/btn_televison"
+                android:padding="0dip"
+                android:src="@drawable/movie_icon"
+                imageButton:text="@string/movie_string" />
+            
+
+            <com.mirageTeam.widget.ScaleImageButton
+                android:id="@+id/btn_browser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@id/btn_movie"
+                android:adjustViewBounds="true"
+                android:background="@color/shadow"
+                android:contentDescription="@string/empty_string"
+                android:padding="0dip"
+                android:src="@drawable/music_icon"
+                imageButton:text="@string/browser_string" />
+
+            <com.mirageTeam.widget.ScaleImageButton
+                android:id="@+id/btn_appstore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/btn_browser"
+                android:adjustViewBounds="true"
+                android:background="@color/shadow"
+                android:contentDescription="@string/empty_string"
+                android:nextFocusLeft="@+id/btn_televison"
+                android:nextFocusRight="@+id/btn_apps"
+                android:padding="0dip"
+                android:src="@drawable/appstore_icon"
+                imageButton:text="@string/appstore_string" />
+
+            <com.mirageTeam.widget.ScaleImageButton
+                android:id="@+id/btn_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_apps"
+                android:layout_marginBottom="40dp"
+                android:layout_toLeftOf="@+id/weather_view"
+                android:layout_toRightOf="@+id/btn_appstore"
+                android:adjustViewBounds="true"
+                android:background="@color/shadow"
+                android:contentDescription="@string/empty_string"
+                android:padding="0dip"
+                android:src="@drawable/settings_icon"
+                imageButton:text="@string/settings_string" />
+
+            <com.mirageTeam.widget.ScaleImageButton
+                android:id="@+id/btn_apps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_toRightOf="@+id/btn_appstore"
+                android:adjustViewBounds="true"
+                android:background="@color/shadow"
+                android:contentDescription="@string/empty_string"
+                android:padding="0dip"
+                android:src="@drawable/apps_icon"
+                imageButton:text="@string/applist_string" />
+
+            <com.mirageTeam.widget.ScaleImageButton
+                android:id="@+id/btn_televison"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_movie"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="80dp"
+                android:adjustViewBounds="true"
+                android:background="@color/shadow"
+                android:contentDescription="@string/empty_string"
+                android:nextFocusUp="@+id/btn_movie"
+                android:padding="0dip"
+                android:src="@drawable/television_icon"
+                imageButton:text="@string/tv_string" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notification_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="65dip"
+        android:paddingBottom="15dp" >
+    </LinearLayout>
+
+</RelativeLayout>

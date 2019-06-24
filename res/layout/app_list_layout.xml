@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/all_background" >
+
+    <RelativeLayout
+        android:id="@+id/rlid"
+        android:layout_width="350dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/appmgr"
+            android:layout_alignParentTop="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/show_all_apps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:focusable="false"
+                android:longClickable="false"
+                android:src="@drawable/app_button" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/appmgr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/recopenapp"
+            android:background="@drawable/applist"
+            android:text="@string/app_manegement"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/recopenapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/applist"
+            android:text="@string/app_recently_opened"
+            android:textColor="@drawable/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/appview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_toRightOf="@id/rlid"
+        android:columnWidth="40dp"
+        android:horizontalSpacing="20dip"
+        android:listSelector="@android:color/transparent"
+        android:nextFocusLeft="@+id/appmgr"
+        android:numColumns="5"
+        android:scrollbars="none"
+        android:verticalSpacing="50dp" >
+    </GridView>
+
+</RelativeLayout>

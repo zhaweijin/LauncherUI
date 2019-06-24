@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget28"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/widget29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/storage_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="20dip"
+            android:textColor="@android:color/white"
+            android:text="@string/internal_storage" >
+        </TextView>
+    </LinearLayout><LinearLayout
+        android:id="@+id/widget31"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.mirageteam.launcher.setting.PercentageBarChart
+            android:id="@+id/percentage_bar_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="32dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeight" >
+        </com.mirageteam.launcher.setting.PercentageBarChart>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_storage_item"
+        android:layout_width="fill_parent"
+        android:layout_height="300dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal">   
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/total_storage_size"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="10dip"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/availed_storage_size"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+</LinearLayout>
